@@ -42,7 +42,7 @@ void setup()
   turmite = new Turmite(&pixels, 8, 8);
   turmite->setRule(0);
   turmite->setColorBackground(0, 0, 0);
-  turmite->setColor(0, 50, 100);
+  turmite->setColor(5, 5, 5);
   turmite->setPeriodNext(25);
 }
 
