@@ -39,7 +39,7 @@ Turmite* turmite;
 void setup()
 {
   pixels.begin();
-  turmite = new Turmite(&pixels, 8, 8);
+  turmite = new Turmite(&pixels, WIDTH, HEIGHT);
   turmite->setRule(0);
   turmite->setColorBackground(0, 0, 0);
   turmite->setColor(5, 5, 5);
